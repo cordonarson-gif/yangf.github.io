@@ -10,7 +10,7 @@ keyword: "yangf, independent developer, tips, donation, paypal, micro-payment, s
 
 # ✅ 你的 GitHub Pages 主站地址（你这个仓库名是 USERNAME.github.io，所以就是这个）
 url: "https://cordonarson-gif.github.io"
-baseurl: ""   # 个人站点必须留空
+baseurl: "https://cordonarson-gif.github.io/yangf.github.io"   # 个人站点必须留空
 
 future: true
 
