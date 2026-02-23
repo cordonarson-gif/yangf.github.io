@@ -10,11 +10,11 @@ keyword: "yangf, independent developer, tips, donation, paypal, micro-payment, b
 
 # ✅ 这里必须改成你自己的 GitHub Pages 地址（示例：username.github.io）
 #    等你创建好仓库后，把 username 改成你的 GitHub 用户名
-url: "https://yangf.github.io"
+url: "https://cordonarson-gif.github.io"
 
 # ✅ 如果你用的是个人主页仓库 USERNAME.github.io，则 baseurl 必须是空字符串
 #    如果你用的是项目页仓库（例如 repo 名叫 support-page），baseurl 要写 "/support-page"
-baseurl: ""
+baseurl: "https://cordonarson-gif.github.io/yangf.github.io/"
 
 # Publish posts or collection documents with a future date.
 future: true
