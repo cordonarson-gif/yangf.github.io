@@ -1,29 +1,24 @@
 # Site settings
 title: yangf Blog
-SEOTitle: yangf | Support / Blog
+SEOTitle: yangf | Support / Tips
 header-img: img/home-bg.jpg
-email: cordonarson@gmail.com
+email: cordonarsono@gmail.com
 
-# ✅ 建议改成 PayPal 风控更友好的描述：明确“自愿支持/微支付”
-description: "Independent developer. This site allows users to voluntarily support my work with small tips/donations."
-keyword: "yangf, independent developer, tips, donation, paypal, micro-payment, blog"
+# ✅ PayPal 风控更友好的描述：明确“自愿支持/微支付”
+description: "Independent developer. Users can voluntarily support my work with small tips/donations."
+keyword: "yangf, independent developer, tips, donation, paypal, micro-payment, support"
 
-# ✅ 这里必须改成你自己的 GitHub Pages 地址（示例：username.github.io）
-#    等你创建好仓库后，把 username 改成你的 GitHub 用户名
+# ✅ 你的 GitHub Pages 主站地址（你这个仓库名是 USERNAME.github.io，所以就是这个）
 url: "https://cordonarson-gif.github.io"
+baseurl: ""   # 个人站点必须留空
 
-# ✅ 如果你用的是个人主页仓库 USERNAME.github.io，则 baseurl 必须是空字符串
-#    如果你用的是项目页仓库（例如 repo 名叫 support-page），baseurl 要写 "/support-page"
-baseurl: "https://cordonarson-gif.github.io/yangf.github.io/"
-
-# Publish posts or collection documents with a future date.
 future: true
 
-# SNS settings (可选：不需要就关掉/留空)
+# SNS settings（可选，不需要就留空）
 RSS: false
 weibo_username:
 zhihu_username:
-github_username: USERNAME
+github_username: cordonarson-gif
 twitter_username:
 
 # Build settings
@@ -42,7 +37,6 @@ exclude:
 anchorjs: true
 plugins: [jekyll-paginate]
 
-# Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
@@ -53,27 +47,21 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# Disqus / 评论：临时说明页一般不需要
+# 先关掉评论/统计（模板里经常是别人的）
 disqus_username:
-
-# Analytics settings：建议先关掉（模板里的 UA 已经过时）
 ga_track_id:
 ga_domain:
 
 # Sidebar settings
 sidebar: true
-# ✅ 改成更适合“说明页/支持页”的侧边栏文案
 sidebar-about-description: "Independent developer<br/>Voluntary tips / donations"
-# ✅ 建议换成你自己的头像链接（也可以留空）
-sidebar-avatar: https://github.com/USERNAME.png
+sidebar-avatar: https://github.com/cordonarson-gif.png
 
-# Featured Tags
 featured-tags: true
 featured-condition-size: 1
 
-# Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-# MathJax
 page-mathjax: false
+
+friends: []
