@@ -1,0 +1,13 @@
+---
+layout: page
+title: Support / Tips
+description: Voluntary support page
+---
+
+## Support My Work
+
+This page allows users to voluntarily support my independent development work with small tips/donations.
+
+- Payments are optional tips.
+- No physical goods are shipped.
+- If you have any questions about a payment, contact: **cordonarson@gmail.com**
